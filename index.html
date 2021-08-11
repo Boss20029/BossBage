@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <style type="text/css" media="all">
+      body{
+        background-image: url('code2.jpg');
+        background-size:100% 100%;
+        background-attachment:fixed ;
+      }
+      header h1{
+        font-family: Times New Roman;
+        color: #00ccff;
+      }
+      nav ul{
+        list-style: none;
+        float: right;
+        position: relative;
+        bottom: 45px;
+        width:auto;
+        
+      }
+      nav ul li {
+        display: inline-block;
+        padding: 5px;
+      }
+      nav ul a{
+        text-decoration: none;
+        color: black;
+        
+      }
+      nav a:hover{
+        border-top: solid 1px white;
+        border-bottom: solid 1px white;
+        color: red;
+      }
+      p{
+        color:purple;
+        text-align: center;
+        margin-top: 200px;
+      }
+      button{
+        margin-left: 70px;
+        width: 80px;
+        background:#00ccff;
+      }
+      button a{
+        text-decoration: none;
+        color: red;
+      }
+      button a:hover{
+        color: white;
+      }
+      button:hover{
+        background:black;
+        border: 1px solid red;
+      }
+      header h1:hover{
+        color: green;
+      }
+      .contener header h1{
+        animation: sh 10s ease-in-out infinite;
+      }
+      @keyframes sh {
+        0%{  text-shadow: 2px 2px 3px red  ;}
+        50%{  text-shadow: -2px 2px 3px red  ;}
+        0%{  text-shadow: 2px 2px 3px red  ;}
+      }
+      
+    </style>
+    <title></title>
+  </head>
+  <body>
+    <div class="contener">
+      <header>
+        <h1 >learn a corsa</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="About.html">About me</a></li>
+        </ul>
+      </nav>
+      </header>
+      <div>
+        <p>Do you want to learn HTML??</p>
+      </div>
+      <button type="submit"><a href="Yes.html">Yes</a></button>
+      <button type="submit"><a href="No.html">No</a></button>
+    </div>
+    
+  </body>
+</html>

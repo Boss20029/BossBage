@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <style type="text/css" media="all">
+      body{
+       background-size: 100% 100%;
+        background-image: url('code1.jpg');
+        background-attachment: fixed;
+      }
+           header h1{
+        font-family: Times New Roman;
+        color: #00ccff;
+      }
+      nav ul{
+        list-style: none;
+        float: right;
+        position: relative;
+        bottom: 45px;
+        width:auto;
+      }
+      nav ul li {
+        display: inline-block;
+        padding: 5px;
+      }
+      nav ul a{
+        text-decoration: none;
+        color: black;
+        
+      }
+      nav a:hover{
+        border-top: solid 1px white;
+        border-bottom: solid 1px white;
+        color: red;
+      }
+      header h1:hover{
+        color: green;
+      }
+      p{
+        text-align: center;
+        color: red;
+        margin-top:100px ;
+      }
+      .color{
+        background: red;
+        width:100px ;
+        height: 100px;
+        margin: auto;
+        animation:cl 6s ease-in-out infinite ;
+      }
+      @keyframes cl{
+        0%{background:red;}
+        10%{background:#00ccff;}
+        20%{background:#052b8f;}
+        30%{background:blue;}
+        40%{background:#157c96;}
+        50%{background:green;}
+        60%{background: purple;}
+        70%{background:#f02428;}
+        80%{background:#49d5f8;}
+        90%{background:red;}
+        100%{background:#bee413;}
+      }
+      .contener header h1{
+        animation: sh 10s ease-in-out infinite;
+      }
+      @keyframes sh {
+        0%{  text-shadow: 2px 2px 3px red  ;}
+        50%{  text-shadow: -2px 2px 3px red  ;}
+        0%{  text-shadow: 2px 2px 3px red  ;}
+      }
+    </style>
+    <title></title>
+  </head>
+  <body>
+    <div class="contener">
+         <header>
+        <h1>learn a corsa</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="About.html">About me</a></li>
+        </ul>
+      </nav>
+      </header>
+      <div>
+        <p>My name is Mostafa, a beginner web programmer</p>
+        
+      </div>
+      <div class="color">
+        
+      </div>
+    </div>
+  </body>
+</html>
